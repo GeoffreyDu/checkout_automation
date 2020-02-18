@@ -16,7 +16,6 @@ function numberOfArticles() {
             }
         )
     }
-    console.log(articleArea);
     return articleArea  
 }
 
@@ -26,12 +25,10 @@ function velocity() {
     for(i = 0; i < cash; i++){
         cashArea.push(
             {
-            velocity:  Math.floor(Math.random()*50)+1
-                
+                velocity:  Math.floor(Math.random()*50)+1   
             }
         ) 
     }
-    console.log(cashArea);
     return cashArea
 }
 
