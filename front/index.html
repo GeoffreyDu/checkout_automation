@@ -6,7 +6,15 @@
     <title>Document</title>
 </head>
     <body>
-        
+        <h1>Cash automation</h1>
+        <form id="form">
+            <label for="client_input">Number of clients:</label><br>
+            <input type="number" id="client_input" min="0" max="100"><br>
+            <label for="cash_input">Number of cash register:</label><br>
+            <input type="number" id="cash_input" min="0" max="20"><br>
+            <input type="submit" value="Submit" id="button">
+        </form>
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
         <script src="main.js"></script>
     </body>
 </html>
